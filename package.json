@@ -1,0 +1,25 @@
+{
+  "name": "poccucumber",
+  "version": "1.0.0",
+  "description": "POC de cucumber com js",
+  "main": "loader.js",
+  "scripts": {
+    "start": "node ./bin/wwww",
+    "unit-test": "./node_modules/jasmine/bin/jasmine.js",
+    "behavior-test": "./node_modules/.bin/cucumber.js",
+    "test": "./node_modules/jshint/bin/jshint app/*/*.js && ./node_modules/jasmine.js && ./node_modules/.bin/cucumber.js"
+  },
+  "keywords": [
+    "cucumberjs",
+    "nodejs",
+    "poc"
+  ],
+  "author": "ferpioli",
+  "license": "ISC",
+  "devDependencies": {
+    "chromedriver": "^2.33.2",
+    "cucumber": "^3.1.0",
+    "jasmine": "^2.8.0",
+    "selenium-webdriver": "^3.6.0"
+  }
+}
